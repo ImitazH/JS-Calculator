@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title> Javscript Calculator </title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+
+
+
+	</head>
+	<body>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div class="calculator" >
+						<form name='calculator'>
+							<h2>Calculator </h2>
+							<h4> ( using Javascript )</h4>
+
+							<br>
+							<input type='button' class="btn btn-default btn-lg" name='first-bracet' value='(' onclick="addfirstbracket()">
+							<input type='button' class="btn btn-default btn-lg" name='second-bracet' value=')' onclick="addsecondbracket()">
+							<input type='button' class="btn btn-default btn-lg" name='divider' value='/' onclick="addDivider()">
+							<input type='button' class="btn btn-default btn-lg" name='divider' value='*' onclick="addMultiply()"><br />
+							<input type='button' class="btn btn-default btn-lg" name='seven' value='7' onclick="addSeven()">
+							<input type='button' class="btn btn-default btn-lg" name='eight' value='8' onclick="addEight()">
+							<input type='button' class="btn btn-default btn-lg" name='nine' value='9' onclick="addNine()">
+							<input type='button' class="btn btn-default btn-lg" name='minus' value='-' onclick="addMinus()"><br />
+							<input type='button' class="btn btn-default btn-lg" name='four' value='4' onclick="addFour()">
+							<input type='button' class="btn btn-default btn-lg" name='five' value='5' onclick="addFive()">
+							<input type='button' class="btn btn-default btn-lg" name='six' value='6' onclick="addSix()">
+							<input type='button' class="btn btn-default btn-lg" name='plus' value='+' onclick="addPlus()"><br />
+							<input type='button' class="btn btn-default btn-lg" name='one' value='1' onclick="addOne()">
+							<input type='button' class="btn btn-default btn-lg" name='two' value='2' onclick="addTwo()" >
+							<input type='button' class="btn btn-default btn-lg" name='three' value='3' onclick="addThree()" >
+							<input type='button' class="btn btn-default btn-lg" name='equal' value='=' onclick="displayResult()" ><br />
+							<input type='button' class="btn btn-default btn-lg zero" name='zero' value='0' onclick="addZero()" >
+							<input type='button' class="btn btn-default btn-lg" name='point' value='.' onclick="addPoint()">
+							<input type='button' class="btn btn-default btn-lg" name='clear' value='C' onclick="addClear()">
+							<br>
+							<input name='display' readonly class="form-control calc-display" >
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<script src="js/script.js"> </script>
+
+
+	</body>
+</html>

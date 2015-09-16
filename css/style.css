@@ -1,0 +1,54 @@
+
+
+.calc-display {
+	width:33%;
+	height:50px;
+}
+
+.calculator{
+	padding-top:100px;
+	padding-left: 350px;
+}
+
+h2,h4{
+	padding-left: 60px;
+}
+
+button{
+	height: 40px;
+	width: 50px;
+	border-radius: 5px;
+}
+
+.durjoy{
+	width: 15%;
+	margin-top: 10px;
+	padding-top: 0px;
+	border-radius: 5px;
+}
+
+
+.btn-default {
+	color: #EB1212;
+	background-color: #000;
+	border-color: #ccc;
+	margin-right:10px;
+	width:7%;
+}
+
+
+.btn-default:hover {
+	color: yellow;
+	background-color: #000;
+	border-color: #ccc;
+}
+
+
+.form-control[readonly]{
+	background-color: #200101;
+	opacity: 1;
+}
+
+.zero{
+	width:15.7%
+}
